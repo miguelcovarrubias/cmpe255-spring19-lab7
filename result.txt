@@ -1,0 +1,50 @@
+Polynomial Kernel Results
+
+calling: polynomial_kernel()
+[[ 4  1  1]
+ [ 0 12  0]
+ [ 1  5  6]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       0.80      0.67      0.73         6
+Iris-versicolor       0.67      1.00      0.80        12
+ Iris-virginica       0.86      0.50      0.63        12
+
+      micro avg       0.73      0.73      0.73        30
+      macro avg       0.77      0.72      0.72        30
+   weighted avg       0.77      0.73      0.72        30
+
+
+Gaussian Kernel Results
+calling: gaussian_kernel()
+
+[[10  0  0]
+ [ 0  9  0]
+ [ 0  0 11]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       1.00      1.00      1.00         9
+ Iris-virginica       1.00      1.00      1.00        11
+
+      micro avg       1.00      1.00      1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+
+
+Results Sigmoid Kernel
+calling: sigmoid_kernel()
+
+[[8 0 0]
+ [0 8 5]
+ [0 3 6]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00         8
+Iris-versicolor       0.73      0.62      0.67        13
+ Iris-virginica       0.55      0.67      0.60         9
+
+      micro avg       0.73      0.73      0.73        30
+      macro avg       0.76      0.76      0.76        30
+   weighted avg       0.75      0.73      0.74        30
+
